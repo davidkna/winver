@@ -1,0 +1,13 @@
+[package]
+name = "winver"
+version = "0.1.0"
+authors = ["David Knaack <davidkna@users.noreply.github.com>"]
+links = "winverhelper"
+build = "build.rs"
+publish = false
+
+[dependencies]
+winapi = "0.2"
+
+[build-dependencies]
+cc = "1.0"
